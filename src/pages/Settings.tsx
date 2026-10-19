@@ -87,7 +87,7 @@ function AccountNameCard() {
             passwordManagerIgnore
           />
         </div>
-        <Button type="submit" variant="primary" className="sm:mt-6">
+        <Button type="submit" variant="primary" className="rounded-full sm:mt-6">
           Save
         </Button>
       </form>
