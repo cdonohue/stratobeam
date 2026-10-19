@@ -29,7 +29,7 @@ export function HomePage() {
     <>
       <PageHeader
         title={account.name}
-        description="An overview of your domains, applications and traffic across this account."
+        description="Your domains, applications and traffic across this account, at a glance."
         actions={
           <Button variant="primary" className="rounded-full" icon={PlusIcon} onClick={() => setAddOpen(true)}>
             Add a domain
