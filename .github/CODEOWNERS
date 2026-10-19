@@ -1,0 +1,6 @@
+# Stratobeam (fictional): who owns which pages. The owners are example.com
+# addresses, which reach no one; Exhibit counts them as teams.
+*                       platform@example.com
+src/pages/Domain*       dns@example.com
+src/pages/*Worker*      workers@example.com
+src/pages/Home.tsx      growth@example.com

@@ -185,7 +185,7 @@ export function CreateWorkerPage() {
                   <ArrowLeftIcon size={16} aria-hidden="true" />
                   Back
                 </Button>
-                <Button variant="primary" icon={RocketLaunchIcon} loading={deploying} onClick={deploy}>
+                <Button variant="primary" className="rounded-full" icon={RocketLaunchIcon} loading={deploying} onClick={deploy}>
                   {deploying ? "Deploying…" : "Deploy"}
                 </Button>
               </div>

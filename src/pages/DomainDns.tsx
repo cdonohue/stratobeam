@@ -72,7 +72,7 @@ export function DnsTab({ domain }: { domain: Domain }) {
                     Clear search
                   </Button>
                 ) : (
-                  <Button variant="primary" icon={PlusIcon} onClick={() => setEditor({ open: true, record: null })}>
+                  <Button variant="primary" className="rounded-full" icon={PlusIcon} onClick={() => setEditor({ open: true, record: null })}>
                     Add record
                   </Button>
                 )
