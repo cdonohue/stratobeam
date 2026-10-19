@@ -1,0 +1,5 @@
+# Acme Robotics (fictional): who owns which pages
+*                       @acme/platform
+src/pages/Domain*       @acme/dns
+src/pages/*Worker*      @acme/workers
+src/pages/Home.tsx      @acme/growth
